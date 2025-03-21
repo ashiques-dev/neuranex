@@ -1,4 +1,5 @@
 import Banner from "@/components/banner";
+import CallToAction from "@/components/call-to-action";
 import FAQS from "@/components/faqs";
 import Features from "@/components/features";
 import Hero from "@/components/hero";
@@ -17,6 +18,7 @@ const Home = () => {
       <Features />
       <ProductShowcase />
       <FAQS />
+      <CallToAction />
     </>
   );
 };
