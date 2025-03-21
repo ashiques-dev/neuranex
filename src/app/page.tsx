@@ -1,4 +1,5 @@
 import Banner from "@/components/banner";
+import Features from "@/components/features";
 import Hero from "@/components/hero";
 import LogoTicker from "@/components/logo-ticker";
 import Navbar from "@/components/navbar";
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <LogoTicker />
+      <Features />
     </>
   );
 };
