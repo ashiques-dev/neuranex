@@ -13,7 +13,7 @@ const ProductShowcase = () => {
   });
   const rotateX = useTransform(scrollYProgress, [0, 1], [45, 0]);
   const opacity = useTransform(scrollYProgress, [0, 1], [0.25, 1]);
-  const translateY = useTransform(scrollYProgress, [0, 0.6, 1], [50, -50, 50]);
+  const translateY = useTransform(scrollYProgress, [0, 0.6, 1], [50, -75, 50]);
 
   return (
     <section
